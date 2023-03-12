@@ -12,6 +12,7 @@ module.exports = {
         clean: true,
         assetModuleFilename: '[name][ext]',
     },
+    watch: true,
     devtool: 'source-map',
     devServer: {
         static: {
